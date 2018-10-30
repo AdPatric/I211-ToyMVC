@@ -1,8 +1,8 @@
 <?php
 
-require 'autoloader.class.php';
+require 'vendor/autoload.php';
 
-$toy_conntroller = new ToyController();
+$toy_controller = new ToyController();
 
 //default action is list all the toys
 $action = "all";
